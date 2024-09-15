@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  margin: 0;
+  height: 100vh;
+  color: #333;
+  background-color: #f7f9f9;
+  text-align: center;
+  direction: rtl;
+  font-family: "Alef", Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(143, 40, 140);
+  color: #fff;
+  padding: 1em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+main {
+  padding: 1em;
+}
+
+.hero {
+  background: linear-gradient(to bottom, rgb(143, 40, 140),rgb(113, 88, 112));
+  color: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.hero h2 {
+  margin: 0 0 0.5em;
+  font-size: 1.5em;
+}
+
+.cta-button {
+  background-color: rgb(143, 40, 140);
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature {
+  background-color: #fff;
+  padding: 1em;
+  margin: 0.5em 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color:  rgb(143, 40, 140);;
+  color: #fff;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Responsive Design */
+@media(min-width: 600px) {
+  .features {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .feature {
+    width: 30%;
+  }
+}
