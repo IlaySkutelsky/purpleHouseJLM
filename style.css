@@ -74,6 +74,11 @@ footer {
 
 /* Responsive Design */
 @media(min-width: 600px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   .features {
     flex-direction: row;
     justify-content: space-around;
