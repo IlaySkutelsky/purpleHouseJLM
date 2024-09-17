@@ -26,6 +26,7 @@ h1 {
 
 main {
   padding: 1em;
+  padding-bottom: 6rem;
 }
 
 .hero {
@@ -61,7 +62,13 @@ main {
   margin: 0.5em 0;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 200ms ease-in-out;
+  cursor: pointer;
 }
+.feature:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 
 footer {
   background-color:  rgb(143, 40, 140);;
@@ -70,6 +77,15 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+.logo-wrapper {
+  padding: 1rem;
+}
+
+.logo-img {
+  width: 100%;
+  border-radius: 1rem;
 }
 
 /* Responsive Design */
@@ -86,5 +102,9 @@ footer {
 
   .feature {
     width: 30%;
+  }
+
+  .logo-img {
+    width: 400px;
   }
 }
