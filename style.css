@@ -29,6 +29,10 @@ main {
   padding-bottom: 6rem;
 }
 
+main section {
+  margin-bottom: 2rem;
+}
+
 .hero {
   background: linear-gradient(to bottom, rgb(143, 40, 140),rgb(113, 88, 112));
   color: #fff;
@@ -69,6 +73,34 @@ main {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+.logo-wrapper {
+  padding: 1rem;
+}
+
+.logo-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+section.playlist-wrapper {
+  background-color: rgb(143, 40, 140);
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  border: 3px solid black;
+  margin-bottom: 7rem;
+}
+section.playlist-wrapper h3 {
+  direction: ltr;
+}
+section.playlist-wrapper h3 a {
+  margin-inline: 1rem;
+}
+section.playlist-wrapper h3 svg {
+  transform: translateY(25%);
+}
 
 footer {
   background-color:  rgb(143, 40, 140);;
@@ -77,15 +109,18 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+  direction: ltr;
 }
-
-.logo-wrapper {
-  padding: 1rem;
+footer a {
+  color: white;
+  font-weight: 700;
+  margin-inline: 1rem;
 }
-
-.logo-img {
-  width: 100%;
-  border-radius: 1rem;
+footer a svg {
+  transform: translateY(25%);
+}
+footer .insta-links {
+  display: flex;
 }
 
 /* Responsive Design */
