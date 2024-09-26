@@ -116,6 +116,9 @@ footer a {
   font-weight: 700;
   margin-inline: 1rem;
 }
+footer img {
+  height: 3rem;
+}
 footer a svg {
   transform: translateY(25%);
 }
